@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/homescreen.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.navLinks {
+    flex: 1;
+    text-align: right;
+}
+
+.navLinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navLinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navLinks ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #26e3f4;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+
+.navLinks ul li:hover::after{
+    width: 100%;
+}
+
+.pages{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;  
+}
+  
+.column{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.column:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 20px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.advantages{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.advantagesCol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+	background-color: rgba(0, 204, 255, 0.04);
+}
+.advantagesCol h1{
+    padding-top: 0;
+}
+.advantagesCol p{
+    padding: 15px 0 25px;
+}
+
+.advantagesCol img{
+    width: 100%;
+}
+
+
+.PAcol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+	background-color: rgba(0, 204, 255, 0.04);
+}
+
+.PAcol p{
+    padding: 10px 10px 10px;
+	font-size: 20px;
+}
+
+.Tcol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+	
+}
+
+.Tcol p{
+    padding: 10px 10px 10px;
+	font-size: 20px;
+	background-color: rgba(0, 204, 255, 0.04);
+}
+
+.image1{
+    width: 50%;
+	height: 80%;
+}
+.image2{
+	width: 100%;
+	height: 100%;
+}
+
+
